@@ -27,10 +27,10 @@ or use a manual virtualenv and requirements.txt
 3.  Set up the initial migration for our custom user models in users and build the database.
 
 ```
-(drfx) $ python manage.py makemigrations users
-(drfx) $ python manage.py migrate
-(drfx) $ python manage.py createsuperuser
-(drfx) $ python manage.py runserver
+(drfx) python manage.py makemigrations users
+(drfx) python manage.py migrate
+(drfx) python manage.py createsuperuser
+(drfx) python manage.py runserver
 ```
 
 4.  Endpoints
