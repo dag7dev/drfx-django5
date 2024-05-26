@@ -13,17 +13,16 @@ A framework for launching new Django Rest Framework projects quickly. Comes with
 
 ## First-time setup
 
-1.  Make sure Python 3.9x and Pipenv are already installed. [See here for help](https://djangoforbeginners.com/initial-setup/).
+1.  Make sure Python 3.10+ and Poetry are already installed. [See here for help](https://djangoforbeginners.com/initial-setup/).
 2.  Clone the repo and configure the virtual environment:
 
 ```
-git clone https://github.com/dag7dev/drfx-django5.git
-cd drfx
-pipenv install
-pipenv shell
+git clone https://github.com/dag7dev/drfx-django5.git 
+cd drfx-django5
+poetry shell
 ```
 
-or use requirements.txt
+or use a manual virtualenv and requirements.txt
 
 3.  Set up the initial migration for our custom user models in users and build the database.
 
