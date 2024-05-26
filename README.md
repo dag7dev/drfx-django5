@@ -4,7 +4,7 @@ A framework for launching new Django Rest Framework projects quickly. Comes with
 
 ## Features
 
-- Django 4, Django REST Framework 3.14, and Python 3.9.17+
+- Django 5, Django REST Framework 3.14, and Python 3.9.17+
 - Custom user model
 - Token-based auth
 - Signup/login/logout
@@ -17,7 +17,7 @@ A framework for launching new Django Rest Framework projects quickly. Comes with
 2.  Clone the repo and configure the virtual environment:
 
 ```
-git clone https://github.com/dag7dev/drfx-django4.git
+git clone https://github.com/dag7dev/drfx-django5.git
 cd drfx
 pipenv install
 pipenv shell
